@@ -24,7 +24,8 @@ En plus des variables contenant vos éléments HTML, créez une variable **opera
           contenu par 0 ( zéro ).     
           ==> Résultat attendu: 0
         
-        4. Le paragraphe #random ne contient rien, faites en sorte qu'il contienne un nombre aléatoire compris entre 0 et 0
+        4. Le paragraphe #random ne contient rien, faites en sorte qu'il contienne un nombre aléatoire compris entre 
+        0 et 0
            ==> Résultat attendu: Nombre aléatoire 
         
         5. Le paragraphe #trunc contient un nombre flottant, faites en sorte de ne garder que la partie entière, à l'aide
@@ -38,7 +39,8 @@ En plus des variables contenant vos éléments HTML, créez une variable **opera
 
 ## Théorie
 
-Une fonction native peut être appelée en utilisant son objet, suivi d'un point ( nous verrons plus tard ce qu'est un objet, sachez juste qu'ils existent et que tout est objet en JavaScript)
+Une fonction native peut être appelée en utilisant son objet, suivi d'un point ( nous verrons plus tard ce qu'est 
+un objet, sachez juste qu'ils existent et que tout est objet en JavaScript)
 
 ```javascript
 let randomNumber = Math.random();
